@@ -21,3 +21,4 @@ for (let i = 0; i < myLeads.length; i++) {
 }
 saved.innerHTML=listItems
 }
+localStorage.setItem("myleads"+myLeads[i])
