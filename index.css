@@ -6,7 +6,7 @@ body{
 
 }
 input{
-    border-color: rgb(44, 241, 44);
+    border-color: rgb(253, 170, 46);
     width: 250px;
     border-style: solid;
     width: 100%;
@@ -15,7 +15,7 @@ padding: 5px;    border-radius: 6px;
 }
 button{
 color: aliceblue;
-background: rgb(24, 223, 17);
+background: rgb(253, 199, 33);
 padding: 5px 11px;
 border: 0px;
 margin-top: 5px;
@@ -33,4 +33,5 @@ a{
 }
 li{
     margin-left: 5px;
+    color: orangered;
 }
