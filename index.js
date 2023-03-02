@@ -5,11 +5,25 @@ let listItems=""
 const inputEl = document.getElementById("text-el")
 const saveBtn = document.getElementById("input-btn")
 const delEl=document.getElementById("del-btn")
+const tabBtn=document.getElementById("tab-btn")
 let leadsFromLocalStorage=JSON.parse(localStorage.getItem("MyLeads"))
 if(leadsFromLocalStorage){
   myLeads=leadsFromLocalStorage
   sadata(myLeads)
 }
+
+const tabs = [
+  {url: "https://www.linkedin.com/in/per-harald-borgen/"}
+]
+
+
+tabBtn.addEventListener('click',function(){
+    console.log(tabs[0].url)
+})
+
+
+
+
 function sadata(leads){ 
   let listItems="" 
 for (let i = 0; i < leads.length; i++) {
