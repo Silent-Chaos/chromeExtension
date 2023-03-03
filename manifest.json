@@ -1,9 +1,10 @@
 {
     "manifest_version":3,
     "version":"1.0",
-    "name":"web-tracker",
+    "name":"site-saver",
     "action":{
         "default_popup":"index.html",
         "default_icon":"icon.png"
     }
-}
+    ,"permissions":["tabs"]
+} 
