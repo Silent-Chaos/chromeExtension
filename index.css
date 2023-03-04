@@ -16,9 +16,9 @@ padding: 5px;    border-radius: 6px;
 button
 {
 color: aliceblue;
-background: rgb(24, 150, 20);
+background: rgb(39, 20, 150);
 padding: 5px 11px;
-border: 1px solid rgb(57, 124, 55);
+border: 1px solid rgb(63, 50, 136);
 margin-top: 5px;
 cursor: pointer;
 border-radius: 3px;
@@ -30,15 +30,15 @@ ul{
     padding-left: 0%;
 }
 a{
-    color: rgb(24, 150, 20);
+    color: rgb(22, 20, 150);
 }
 li{
     margin-left: 5px;
-    color: orangered;
+    color: rgb(18, 61, 141);
 }
 #del-btn
 {
-color: rgb(24, 150, 20);
-background: rgb(255, 255, 255);
+color: rgb(29, 20, 150);
+background: rgb(20, 18, 145);
 
 }
